@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background: #fafafa;
+  
+}
+.img {
+  height: auto;
+  width: 70px;
+}
+.sticky-top{
+  position:sticky;top:0;z-index:1020
+}
+
+.dropdown-menu a{
+  color: black;
+}
+.dropdown-menu button{
+ font-size: small;
+}
+.userDetails{
+ color: black;
+ text-align: center;
+}
+.divider{
+  border-top: 1px solid rgb(219, 219, 219);
+}
+.profile{
+  height: 30px;
+  border-radius: 50%;
+}
+.userName{
+  color: black;
+}
+
+@media only screen and (min-width: 430px) and (max-width: 600px){
+  .navbar-expand-custom {
+      flex-direction: row;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+  }
+  .navbar-expand-custom .navbar-nav {
+      flex-direction: row;
+  }
+  .navbar-expand-custom .dropdown-menu {
+      position: fixed;
+  }
+  
+  .navbar-expand-custom .nav-link {
+      padding-right: .5rem;
+      padding-left: .5rem;
+  }
+  .navbar-expand-custom > .container {
+      flex-wrap: nowrap;
+  }
+  .navbar-expand-custom .navbar-collapse {
+      display: flex!important;
+      flex-basis: auto;
+  } 
+}

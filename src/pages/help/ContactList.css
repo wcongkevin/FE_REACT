@@ -1,0 +1,58 @@
+.searchBar {
+    width: 20%;
+  }
+
+  .container-fluid {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 10px;
+    font-size: smaller;
+  }
+
+  .card-body {
+    padding: 10px;
+  }
+
+  select {
+    font-size: small;
+  }
+
+  th {
+    background-color: #f7fcff;
+  }
+
+  thead th {
+    cursor: pointer;
+  }
+
+  thead th fa-icon {
+    visibility: hidden;
+  }
+
+  thead th .active {
+    color: #353535;
+  }
+
+  thead th.active fa-icon {
+    visibility: visible;
+  }
+
+  fa-icon {
+    color: #353535;
+  }
+
+  .loading {
+    margin: 1% 6px 0px 1%;
+    font-size: 14px;
+  }
+
+  thead {
+    background: #f7fcff;
+    white-space: nowrap;
+  }
+
+  input {
+    font-size: smaller;
+  }
